@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.CSS" />
+    <title>To do list application</title>
+  </head>
+  <body>
+    <header>
+      <h1>My Application</h1>
+    </header>
+    <main>
+      <form onsubmit="inserisciNuovoTask(event)">
+        <input type="text" placeholder="Inserisci un nuovo Task" id="taskInput" required />
+        <button>Aggiungi</button>
+      </form>
+      <div>
+        <h2>Cosa devi fare?</h2>
+        <ol></ol>
+      </div>
+    </main>
+    <script src="./index.JS"></script>
+  </body>
+</html>

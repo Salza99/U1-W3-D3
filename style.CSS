@@ -1,0 +1,11 @@
+.completeTask {
+  text-decoration: line-through;
+}
+body {
+  margin: 0px;
+}
+header,
+main {
+  margin: 0 auto;
+  text-align: center;
+}
